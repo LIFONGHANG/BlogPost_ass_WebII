@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Blog Post Application</title>
+
+    <style>
+
+        .title {
+            text-align: center;
+        }
+
+        #blog-posts-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .blog-post {
+            border: 1px solid lightgray;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        button {
+            margin: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1 class="title">Blog Post Application</h1>
+
+    <section>
+
+        <button id="add-post-btn">
+            Add Blog Post
+        </button>
+
+        <div id="blog-posts-container"></div>
+
+    </section>
+
+    <script src="blogpost.js"></script>
+
+</body>
+
+</html>
